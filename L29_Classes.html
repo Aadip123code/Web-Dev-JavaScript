@@ -1,0 +1,54 @@
+<html>
+
+<head>
+
+
+
+    <title>JavaScript Classes</title>
+
+
+
+</head>
+
+<body>
+
+
+    <h1>JavaScript Classes</h1>
+
+    <p id="student1"></p>
+    <p id="student2"></p>
+
+    <script>
+        class student{
+            constructor(name,age,hobby,religion){
+            this.name=name;
+            this.age=age;
+            this.hobby=hobby;
+            this.religion=religion;
+        }
+
+    }
+
+        student1= new student("Aadip",13,"Soccer","hindu")
+        student2= new student("Utkarsh", 13,"Maths","hindu")
+
+        document.getElementById("student1").innerHTML="My name is " + student1.name + " any my age is" +student1.age + " I like playing " + student1.hobby + " and I am " + student1.religion + "."
+        document.getElementById("student2").innerHTML ="My name is " + student2.name + " any my age is " + student2.age + " I like playing " + student2.hobby + " and I am " + student2.religion + "."
+        
+    </script>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

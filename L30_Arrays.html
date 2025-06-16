@@ -1,0 +1,58 @@
+<html>
+
+<head>
+
+
+
+    <title>JavaScript Arrays</title>
+
+
+
+</head>
+
+<body>
+
+
+    <h1>Arrays</h1>
+
+    <h3>
+        Click on buttons below to sort the array
+    </h3>
+
+    <button onclick="ascending()">Ascending Order</button>
+    <button onclick="descending()">Descending Order</button>
+    <p id="result"></p>
+
+    <script>
+        var numbers=[34,87,22,46,12,4,2,80,100,38,92,12,24,25,2,5,1,10,10,62] 
+        document.getElementById("result").innerHTML=numbers;
+
+        function ascending() {
+
+            numbers.sort(function(a,b){return a-b})
+            document.getElementById("result").innerHTML= numbers;
+        }
+
+        function descending() {
+
+                numbers.sort(function (a,b) { return b-a})
+                document.getElementById("result").innerHTML = numbers;
+            }
+
+
+    </script>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

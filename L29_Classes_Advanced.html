@@ -1,0 +1,54 @@
+<html>
+
+<head>
+
+
+
+    <title>JavaScript Classes Advanced</title>
+
+
+
+</head>
+
+<body>
+
+
+    <h1>JavaScript Classes Advanced</h1>
+
+    <p id="athlete1"></p>
+    <p id="athlete2"></p>
+
+    <script>
+        class athlete {
+            constructor(name, age, sport, religion) {
+                this.name = name;
+                this.age = age;
+                this.sport = sport;
+                this.religion = religion;
+            }
+
+        }
+
+        athlete1 = new athlete("Lionel Messi", 38, "Soccer", "Cristian")
+        athlete2 = new athlete("Mohammad Salah", 33, "Soccer", "Muslim")
+
+        document.getElementById("athlete1").innerHTML = "My name is " + athlete1.name + " and my age is" + athlete1.age + " I am a " + athlete1.sport + " player, and I am" + athlete1.religion + "."
+        document.getElementById("athlete2").innerHTML = "My name is " + athlete2.name + " and my age is " + athlete2.age + " I am a " + athlete2.sport + " player, and I am " + athlete2.religion + "."
+
+    </script>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

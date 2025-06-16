@@ -1,0 +1,94 @@
+<html>
+
+<head>
+
+
+
+    <title>Parameters</title>
+
+
+
+</head>
+
+<body>
+
+
+    <h1>Parameters/Inputs:<br>
+    (Input any numbers)</h1>
+    
+<h3>
+    Addition:
+</h3>
+
+    <p id="para1">
+       
+        <br>
+    </p>
+
+<h3>
+    Subtraction:
+</h3>
+
+    <p id="para2">
+       
+        <br>
+    </p>
+
+<h3>
+    Division:
+</h3>
+
+    <p id="para3">
+        
+    </p>
+
+<h3>
+    Multiplication:
+</h3>
+
+    <p id="para4">
+        Multiplication
+        <br>
+    </p>
+
+
+    <script>
+        function para1_func(num1,num2) {
+            return num1+num2;
+        }
+
+         function para2_func(num1, num2) {
+                return num1 - num2;
+            }
+
+
+             function para3_func(num1, num2) {
+                    return num1 / num2;
+                }
+
+
+                 function para4_func(num1, num2) {
+                        return num1 * num2;
+                    }
+
+
+        document.getElementById("para1").innerHTML= para1_func(40,52);
+         document.getElementById("para2").innerHTML = para2_func(40, 52);
+          document.getElementById("para3").innerHTML = para3_func(40, 52);
+           document.getElementById("para4").innerHTML = para4_func(40, 52);
+    </script>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

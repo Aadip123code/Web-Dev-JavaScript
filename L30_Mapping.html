@@ -1,0 +1,45 @@
+<html>
+
+<head>
+
+
+
+    <title>JavaScript Mapping</title>
+
+
+
+</head>
+
+<body>
+
+
+    <h1>Mapping</h1>
+
+    <p id="original"></p>
+    <p id="result"></p>
+
+    <script>
+
+
+var numbers =[2,5,7,23,73,23,65,1,2,5];
+document.getElementById("original").innerHTML=numbers;
+
+function myfunction(num) {
+
+    return num * 10
+}
+
+var newarray= numbers.map(myfunction);
+document.getElementById("result").innerHTML=newarray
+   
+   
+   </script>
+
+
+
+
+</body>
+
+
+
+</html>

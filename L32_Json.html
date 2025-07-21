@@ -1,0 +1,44 @@
+<html>
+
+<head>
+
+
+
+    <title>JavaScript Json</title>
+
+
+
+</head>
+
+<body>
+
+
+    <h1>JavaScript Json</h1>
+
+    <p id="result1"></p>
+    <p id="result2"></p>
+
+    <script>
+        var myobject = {name : "aadip", age : 13, grade : 8, hobby : "soccer"};
+
+        var myjson = JSON.stringify(myobject);
+
+        var newobject = JSON.parse(myjson);
+
+        document.getElementById("result1").innerHTML = myobject.name;
+    </script>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

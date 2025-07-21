@@ -1,0 +1,48 @@
+<html>
+
+<head>
+
+
+
+    <title>JavaScript Find and Replace</title>
+
+
+
+</head>
+
+<body>
+
+
+    <h1>Find and Replace</h1>
+
+    <p id="find_result"></p>
+    <p id="replace_result"></p>
+
+    <script>
+        var sentence = "Today is Tuesday and tomorrow is Tuesday"
+
+        var find = sentence.search("Tuesday");
+
+        var replace = sentence.replace("Tuesday","Monday")
+
+        document.getElementById("find_result").innerHTML = find;
+
+        document.getElementById("replace_result").innerHTML = replace;
+
+    </script>
+   
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,66 @@
+<html>
+
+<head>
+
+
+
+    <title>Javascript Validation</title>
+
+
+
+</head>
+
+<body>
+
+
+
+
+    <h1>Javascript Validation</h1>
+
+<script>
+    function validateform() {
+        var x = document.forms["myform"]["fname"].value;
+
+        if (x == "") {
+
+            alert("name cannot be empty");
+            return false;
+
+        }
+        else {
+            document.write("Name has been submitted successfully")
+        }
+
+    }
+
+
+</script>
+    
+    <form name="myform" onsubmit="validateform()">
+
+        Name: <input type="text" name="fname">
+
+        <br> <br>
+
+        <input type="submit" value="submit">
+
+        <br>
+
+        <p id="message"></p>
+    </form>
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
